@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Chakra';
+    src: url('./ChakraPetch-Regular.ttf'); 
+}
+input[type="text"]
+{
+    background-color: rgb(15, 15, 15);
+    color: rgb(175, 175, 175);
+    border-radius: 0px;
+    padding: 6px 10px 6px 10px;
+    font-family: "Chakra";
+}
+input[type=button], input[type=submit], input[type=reset] 
+{
+    background-color: rgb(15, 15, 15);
+    border-radius: 0px;
+    color: rgb(175, 175, 175);
+    padding: 6px 10px 6px 10px;
+    font-family: "Chakra";
+}
+label
+{
+    padding: 6px 10px 6px 10px;
+}
+body 
+{
+    background-color: rgb(15, 15, 15);
+    color: rgb(175, 175, 175);
+    font-family: "Chakra";
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.ecenter 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tcenter { text-align: center; }
+h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0px;
+    padding: 2px;
+}
+h1 {font-size: 30px;}
+h2 {font-size: 22px;}
+.caja {margin: 8px;}
+table {border-collapse: collapse;}
+th
+{
+    border-style: solid;
+    border-width: 0pt 0px 1px 0px;
+    border-color: rgb(175, 175, 175);
+    padding: 6px 16px 6px 6px;
+}
+td
+{
+    padding: 6px 10px 6px 10px;
+}
+tr
+{
+    border-style: solid;
+    border-width: 1pt 0px 1px 0px;
+    border-color: rgb(175, 175, 175);
+}
+.bborder
+{
+    border-style: solid;
+    border-width: 0pt 0px 1px 0px;
+    border-color: rgb(175, 175, 175);
+}
+.logo
+{
+    height: 80px;
+    padding: 8px;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.titulo 
+{
+    font-size: 40px;
+}
